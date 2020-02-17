@@ -1,0 +1,21 @@
+﻿@model Valores
+@{
+}
+<a class="btn btn-primary" asp-controller="Home" asp-action="Index">Otra operacion</a>
+
+
+<h1>Porcentaje</h1>
+
+<form asp-action="Porcentaje" method="post">
+    <div class="input-group-prepend">
+        <label>Ingresar el primer numero</label>
+        <input asp-for="numero1" type="number" class="form-control" required>
+    </div>
+    <div class="input-group-prepend">
+        <label>Ingresar el porcentaje</label>
+        <input asp-for="numero2" type="number" class="form-control" required>
+    </div>
+    <p>
+        <input class="btn btn-primary" type="submit" value="Calcular">
+    </p>
+</form>
