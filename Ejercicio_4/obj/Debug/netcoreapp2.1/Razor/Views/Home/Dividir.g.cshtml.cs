@@ -63,7 +63,7 @@ using Ejercicio_4.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(25, 86, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "688a11a81a264332a0c51db12f01e5ad", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8cc651a68c2a47aabe6b459d416c6a15", async() => {
                 BeginContext(93, 14, true);
                 WriteLiteral("Otra operacion");
                 EndContext();
@@ -88,12 +88,12 @@ using Ejercicio_4.Models;
             WriteLiteral("\r\n\r\n\r\n<h1>Dividir</h1>\r\n\r\n");
             EndContext();
             BeginContext(137, 502, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "370ff8fe111842c3a37c90ce3dae8176", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9901034518f2449e8eba341ebbc708cd", async() => {
                 BeginContext(178, 99, true);
                 WriteLiteral("\r\n    <div class=\"input-group-prepend\">\r\n        <label>Ingresar el primer numero</label>\r\n        ");
                 EndContext();
                 BeginContext(277, 69, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3b0e85a66a7e47ea85b93905499b29ac", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3443b9fffa3443b39b9bb3f86355074b", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -122,7 +122,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n    </div>\r\n    <div class=\"input-group-prepend\">\r\n        <label>Ingresar el segundo numero</label>\r\n        ");
                 EndContext();
                 BeginContext(458, 69, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "b34f4044f43a432b82ef48149c71dada", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8a2970a54272474fb9bf686dfbdbd3af", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();

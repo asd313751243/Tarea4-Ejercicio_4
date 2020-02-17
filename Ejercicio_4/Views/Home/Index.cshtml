@@ -2,26 +2,43 @@
     ViewData["Title"] = "Home Page";
 }
 
+<style>
+    #boton {
+        height: 75px;
+        width: 75px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #botons {
+        height: 75px;
+        width: 75px;
+        font-size: 28px;
+        text-align: center;
+    }
+</style>
+
+
 <center>
     <h1>Seleccionar la operacion</h1>
     <p>
     </p>
-        <p>
-            <a class="btn btn-primary" id="boton" asp-controller="Home" asp-action="Sumar">+</a>
-            <a class="btn btn-primary" id="boton" asp-controller="Home" asp-action="Restar">-</a>
-            <a class="btn btn-primary" id="boton" asp-controller="Home" asp-action="Multiplicar">*</a>
-            <a class="btn btn-primary" id="boton" asp-controller="Home" asp-action="Dividir">/</a>
-        </p>
-        <p>
-            <a class="btn btn-info" id="boton" asp-controller="Home" asp-action="Al2">X<sup><b>2</b></sup></a>
-            <a class="btn btn-info" id="boton" asp-controller="Home" asp-action="Al3">X<sup><b>3</b></sup></a>
-            <a class="btn btn-info" id="boton" asp-controller="Home" asp-action="Aly">X<sup><b>y</b></sup></a>
-            <a class="btn btn-info" id="botons" asp-controller="Home" asp-action="Log">log<sub><b>10</b></sub></a>
-        </p>
-        <p>
-            <a class="btn btn-success" id="boton" asp-controller="Home" asp-action="Porcentaje">%</a>
-            <a class="btn btn-success" id="boton" asp-controller="Home" asp-action="Seno">sin</a>
-            <a class="btn btn-success" id="boton" asp-controller="Home" asp-action="Coseno">cos</a>
-            <a class="btn btn-success" id="boton" asp-controller="Home" asp-action="Tangente">tan</a>
-        </p>
+    <p>
+        <a class="btn btn-primary" id="boton" asp-controller="Home" asp-action="Sumar">+</a>
+        <a class="btn btn-primary" id="boton" asp-controller="Home" asp-action="Restar">-</a>
+        <a class="btn btn-primary" id="boton" asp-controller="Home" asp-action="Multiplicar">*</a>
+        <a class="btn btn-primary" id="boton" asp-controller="Home" asp-action="Dividir">/</a>
+    </p>
+    <p>
+        <a class="btn btn-info" id="boton" asp-controller="Home" asp-action="Al2">X<sup><b>2</b></sup></a>
+        <a class="btn btn-info" id="boton" asp-controller="Home" asp-action="Al3">X<sup><b>3</b></sup></a>
+        <a class="btn btn-info" id="boton" asp-controller="Home" asp-action="Aly">X<sup><b>y</b></sup></a>
+        <a class="btn btn-info" id="botons" asp-controller="Home" asp-action="Log">log<sub><b>10</b></sub></a>
+    </p>
+    <p>
+        <a class="btn btn-success" id="boton" asp-controller="Home" asp-action="Porcentaje">%</a>
+        <a class="btn btn-success" id="boton" asp-controller="Home" asp-action="Seno">sin</a>
+        <a class="btn btn-success" id="boton" asp-controller="Home" asp-action="Coseno">cos</a>
+        <a class="btn btn-success" id="boton" asp-controller="Home" asp-action="Tangente">tan</a>
+    </p>
 </center>

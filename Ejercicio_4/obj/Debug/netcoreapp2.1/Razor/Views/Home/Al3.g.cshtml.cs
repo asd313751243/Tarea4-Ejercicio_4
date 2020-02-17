@@ -63,7 +63,7 @@ using Ejercicio_4.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(25, 86, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a65f8dd8abce4fd3b1bc35ae93e27760", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9864cb3e6734507abdc79d1cc3e2b59", async() => {
                 BeginContext(93, 14, true);
                 WriteLiteral("Otra operacion");
                 EndContext();
@@ -88,12 +88,12 @@ using Ejercicio_4.Models;
             WriteLiteral("\r\n\r\n<h1>X<sup><b>3</b></sup></h1>\r\n\r\n");
             EndContext();
             BeginContext(148, 310, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8b3831f2b9104707a64ad7bbb68858f6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "65abb395bf6f47d09d96bf87e45c222e", async() => {
                 BeginContext(185, 92, true);
                 WriteLiteral("\r\n    <div class=\"input-group-prepend\">\r\n        <label>Ingresar el numero</label>\r\n        ");
                 EndContext();
                 BeginContext(277, 69, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "9ffd1517ce3e453aa43efba715c60de5", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0d9cd1afd43444cab291c037cf7312c2", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
