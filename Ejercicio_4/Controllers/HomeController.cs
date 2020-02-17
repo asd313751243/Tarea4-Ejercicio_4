@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Ejercicio_4.Models;
+using Ejercicio_4.Helpers;
 
 namespace Ejercicio_4.Controllers
 {
@@ -26,6 +27,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.sumar(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -41,6 +43,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.restar(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -56,6 +59,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.multiplicar(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -71,6 +75,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.dividir(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -86,6 +91,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.al2(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -101,6 +107,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.al3(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -116,6 +123,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.aly(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -131,6 +139,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.log(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -146,6 +155,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.porcentaje(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -161,6 +171,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.seno(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -176,6 +187,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.coseno(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
@@ -191,6 +203,7 @@ namespace Ejercicio_4.Controllers
         {
             if (ModelState.IsValid)
             {
+                a.result = Calcular.tangente(a.numero1, a.numero2);
                 return RedirectToAction("Resultado", a);
             }
             return View(a);
