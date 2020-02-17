@@ -9,5 +9,6 @@ namespace Ejercicio_4.Models
     {
         public double numero1 { get; set; }
         public double numero2 { get; set; }
+        public double result { get; set; }
     }
 }

@@ -39,3 +39,4 @@ E:\ITLA\ITLA\5to cuatri\Programacion III\Tarea 4\Ejercicio_4\Ejercicio_4\obj\Deb
 E:\ITLA\ITLA\5to cuatri\Programacion III\Tarea 4\Ejercicio_4\Ejercicio_4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Porcentaje.g.cshtml.cs
 E:\ITLA\ITLA\5to cuatri\Programacion III\Tarea 4\Ejercicio_4\Ejercicio_4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Seno.g.cshtml.cs
 E:\ITLA\ITLA\5to cuatri\Programacion III\Tarea 4\Ejercicio_4\Ejercicio_4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Tangente.g.cshtml.cs
+E:\ITLA\ITLA\5to cuatri\Programacion III\Tarea 4\Ejercicio_4\Ejercicio_4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Resultado.g.cshtml.cs

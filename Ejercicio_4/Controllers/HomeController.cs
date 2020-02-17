@@ -24,6 +24,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Sumar(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -35,6 +39,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Restar(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -46,6 +54,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Multiplicar(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -57,6 +69,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Dividir(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -68,6 +84,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Al2(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -79,6 +99,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Al3(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -90,6 +114,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Aly(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -101,6 +129,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Log(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -112,6 +144,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Porcentaje(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -123,6 +159,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Seno(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -134,6 +174,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Coseno(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
@@ -145,6 +189,10 @@ namespace Ejercicio_4.Controllers
         [HttpPost]
         public IActionResult Tangente(Valores a)
         {
+            if (ModelState.IsValid)
+            {
+                return RedirectToAction("Resultado", a);
+            }
             return View(a);
         }
 
